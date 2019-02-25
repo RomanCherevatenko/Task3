@@ -23,8 +23,6 @@ public class UtilityController {
                 (res = scanner.nextLine()).matches(regex))) {
             view.concatMessage(TextConst.ERROR_INPUT, message);
         }
-
         return res;
     }
-
 }

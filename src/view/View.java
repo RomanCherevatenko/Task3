@@ -9,11 +9,17 @@ public class View {
     public void concatMessage(String... messages) {
         String str = "";
         for (String s : messages) {
-            str+=s+" ";
+            str += s + " ";
 
         }
         printMessage(str);
 
 
     }
+
+    public void printErrorMessage(String message) {
+        System.err.println(message);
+
+    }
+
 }
